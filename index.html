@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="img/favicon4.png" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="calculator">
+        <div class="calculator-title">
+            <h1>Calculator</h1>
+        </div>
+        <div class="calculator-numbers">
+            <input id="input1"  class="calculator-number" type="text">
+            <input id="input2" class="calculator-number"  type="text">
+        </div>
+        <div class="calculator-buttons">
+            <div class="calculator-buttons-operation">
+                <button id="buttonPlus" class="calculator-buttons-operation-button one">+</button>
+                <button id="buttonMinus" class="calculator-buttons-operation-button two">-</button>
+                <button id="buttonMultiplication" class="calculator-buttons-operation-button three">&times;</button>
+                <button id="buttonDivision" class="calculator-buttons-operation-button four">&divide;</button>
+            </div>
+        </div>
+        <div class="calculator-final">
+            <div class="calculator-final-wrapper">
+                <div class="calculator-final-wrapper-word">Результат:</div>
+                <div id="result"
+                class="calculator-final-wrapper-number"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
